@@ -75,8 +75,8 @@ Vagrant.configure(2) do |config|
     sudo apt-get install oracle-java8-installer
     echo 'export JAVA_HOME=/usr/lib/jvm/java-8-oracle' >> /home/vagrant/.bashrc
     # install Supermicro IPMIView
-    cd /home/vagrant/Downloads && wget ftp://ftp.supermicro.com/utility/IPMIView/Linux/IPMIView_V2.11.0_bundleJRE_Linux_x64_20151223.tar.gz
-    cd /home/vagrant/Downloads && tar xvf IPMIView_V2.11.0_bundleJRE_Linux_x64_20151223.tar.gz
-    ln -sf /home/vagrant/Desktop/IPMIView /home/vagrant/Downloads/IPMIView_V2.11.0_bundleJRE_Linux_x64_20151223/IPMIView
+    cd /home/vagrant/Downloads && wget ftp://ftp.supermicro.com/utility/IPMIView/Linux/IPMIView_2.12.0_build.160804_bundleJRE_Linux_x64.tar.gz
+    cd /home/vagrant/Downloads && tar xvf IPMIView_2.12.0_build.160804_bundleJRE_Linux_x64.tar.gz
+    ln -sf /home/vagrant/Desktop/IPMIView /home/vagrant/Downloads/IPMIView_2.12.0_build.160804_bundleJRE_Linux_x64/IPMIView
   SHELL
 end
