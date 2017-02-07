@@ -77,6 +77,6 @@ Vagrant.configure(2) do |config|
     # install Supermicro IPMIView
     cd /home/vagrant/Downloads && wget ftp://ftp.supermicro.com/utility/IPMIView/Linux/IPMIView_2.12.0_build.160804_bundleJRE_Linux_x64.tar.gz
     cd /home/vagrant/Downloads && tar xvf IPMIView_2.12.0_build.160804_bundleJRE_Linux_x64.tar.gz
-    ln -sf /home/vagrant/Desktop/IPMIView /home/vagrant/Downloads/IPMIView_2.12.0_build.160804_bundleJRE_Linux_x64/IPMIView
+    ln -sf /home/vagrant/Desktop/IPMIView /home/vagrant/Downloads/IPMIView_2.12.0_build.160804_bundleJRE_Linux_x64/IPMIView20
   SHELL
 end
